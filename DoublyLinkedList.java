@@ -115,6 +115,7 @@ public class DoublyLinkedList<E> {
     }
 
     public void group(){
+        // group
         Node<E> curr = header.getNext();
         while (curr != trailer) {
             if (curr.getElement() == null) {
